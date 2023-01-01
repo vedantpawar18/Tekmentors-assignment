@@ -1,0 +1,26 @@
+.navbar{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+.navbar>div{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navLeft{
+    background-color: #7dbb8a;
+}
+.navRight{
+    background-color: #4b9c7f;
+}
